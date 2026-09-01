@@ -27,7 +27,7 @@ submodule openconfig-aft-common {
 
   revision "2026-09-01" {
     description
-      "Add backup activation state under next-hop-groups.";
+      "Add backup activation state for next-hop-groups.";
     reference "3.5.0";
   }
 
