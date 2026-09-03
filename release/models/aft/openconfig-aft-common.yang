@@ -1092,16 +1092,16 @@ submodule openconfig-aft-common {
     }
   }
 
-  grouping aft-backup-activate-structural {
+  grouping aft-backup-activations-structural {
     description
       "Structural grouping for backup next-hop-group activation entries.";
 
-    container backup-activate {
+    container backup-activations {
       config false;
       description
         "Surrounding container for external/software-driven backup next-hop-group activations.";
 
-      list backup-activate {
+      list backup-activation {
         key "next-hop-group";
 
         description
