@@ -344,7 +344,7 @@ module openconfig-aft {
         uses aft-state-synced-structural;
       }
 
-      uses aft-backup-activate-structural;
+      uses aft-backup-activations-structural;
       uses aft-next-hop-groups-structural;
       uses aft-nhop-structural;
     }
