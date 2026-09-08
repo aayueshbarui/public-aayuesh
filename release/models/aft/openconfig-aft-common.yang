@@ -1124,7 +1124,9 @@ submodule openconfig-aft-common {
             "Operational state parameters relating to backup activation.";
 
           leaf next-hop-group {
-            type uint64;
+            type leafref {
+              path "../../../../next-hop-groups/next-hop-group/state/id";
+            }
 
             description
               "The identifier of the next-hop-group for which backup is activated.";
