@@ -1114,7 +1114,7 @@ submodule openconfig-aft-common {
           }
 
           description
-            "Reference to the target next-hop-group whose backup path is activated.";
+            "Reference to the target next-hop-group whose backup next-hop-group is activated.";
         }
 
         container state {
